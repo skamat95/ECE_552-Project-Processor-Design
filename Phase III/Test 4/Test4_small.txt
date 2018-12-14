@@ -1,0 +1,37 @@
+	LLB R1, 0X8A		
+	LLB R6, 0X80		
+	LHB R6, 0X01		
+	SW R1, R6, 0		
+	LLB R1, 0X10		
+	LLB R2, 0X70		
+	LLB R3, 0X02		
+    SW  R1, R2, 0  
+    LW  R1, R2, 0
+	ADD R2, R2, R3		
+	SUB R1, R1, R3		
+    SW  R1, R2, 0     
+	ADD R2, R2, R3		
+	SUB R1, R1, R3
+    SW  R1, R2, 0     
+	ADD R2, R2, R3		
+	SUB R1, R1, R3
+    HLT
+    
+A18A
+A680
+B601
+9160
+A110
+A270
+A302
+9120
+8120
+0223
+1113
+9120
+0223
+1113
+9120
+0223
+1113
+F000
