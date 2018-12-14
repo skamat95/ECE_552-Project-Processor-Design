@@ -1,3 +1,4 @@
+//EXTRA CREDIT CACHE STRUCTURE: 4-way set associative, ofcourse not working. Did not debug it further. Data cache works for Phase III
 //Cache structure: 64 sets selected by BlockEnable. BlockEnable_0 for way 0 and BlockEnable_1 for way1.
 
 //16 bit blocks
