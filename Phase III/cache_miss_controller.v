@@ -35,7 +35,7 @@ dff state(.q(STATE), .d(nxt_STATE), .wen(1'b1), .clk(clk), .rst(~rst_n));
 
 // 4 bit Counter - to count number of chunks received 
 
-//assign cnt_ff = (clr_cnt) ? 4'h0 : (en_cnt) ? inc_cnt : cnt ; 
+
 assign cnt_ff = (clr_cnt) ? 4'h0 : inc_cnt;
 dff counter[3:0](.q(cnt), .d(cnt_ff), .wen(en_cnt || clr_cnt || miss_detected), .clk(clk), .rst(~rst_n));
 adder_4bit_josh chunks(.AA(cnt), .BB(4'b0001), .SS(inc_cnt), .CC());

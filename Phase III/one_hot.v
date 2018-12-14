@@ -18,4 +18,3 @@ assign Shift_Out[47:32] = ((set[5] == 1) && (set[4] == 0)) ? Shift_Out_imm : 16'
 assign Shift_Out[63:48] = ((set[5] == 1) && (set[4] == 1)) ? Shift_Out_imm : 16'h0000;
 
 endmodule
-

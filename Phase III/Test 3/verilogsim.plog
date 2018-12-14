@@ -31,24 +31,24 @@ SIMLOG:: Cycle          33 PC:     0010 I:     4000 R: 1   6     0004 M: 0 0    
 SIMLOG:: Cycle          34 PC:     0010 I:     4000 R: 1   6     0004 M: 0 0     0004     0000     0000
 SIMLOG:: Cycle          35 PC:     0010 I:     4000 R: 1   6     0004 M: 0 0     0004     0000     0000
 SIMLOG:: Cycle          36 PC:     0010 I:     c202 R: 1   6     0004 M: 0 0     0004     0000     0000
-SIMLOG:: Cycle          37 PC:     0012 I:     de60 R: 1   6     0004 M: 0 0     0001     0001     0000
+SIMLOG:: Cycle          37 PC:     0012 I:     de60 R: 1   6     0004 M: 0 0     0001     0000     0000
 SIMLOG:: Cycle          38 PC:     0012 I:     de60 R: 1   1     0001 M: 0 0     0010     0000     0000
-SIMLOG:: Cycle          39 PC:     0012 I:     de60 R: 1   5     0010 M: 0 0     0000     0001     0000
-SIMLOG:: Cycle          40 PC:     0014 I:     f000 R: 0   2     0000 M: 0 0     0001     0001     0000
-SIMLOG:: Cycle          41 PC:     0004 I:     a201 R: 0   2     0001 M: 0 0     0001     0001     0000
+SIMLOG:: Cycle          39 PC:     0012 I:     de60 R: 1   5     0010 M: 0 0     0000     0000     0000
+SIMLOG:: Cycle          40 PC:     0014 I:     f000 R: 0   2     0000 M: 0 0     0001     0000     0000
+SIMLOG:: Cycle          41 PC:     0004 I:     a201 R: 0   2     0001 M: 0 0     0001     0000     0000
 SIMLOG:: Cycle          42 PC:     0006 I:     b200 R: 0   2     0001 M: 0 0     0005     0000     0000
 SIMLOG:: Cycle          43 PC:     0008 I:     a604 R: 0  14     0005 M: 0 0     0000     0000     0000
-SIMLOG:: Cycle          44 PC:     000a I:     b600 R: 1   0     0000 M: 0 0     0001     0001     0000
-SIMLOG:: Cycle          45 PC:     000c I:     1112 R: 1   2     0001 M: 0 0     0001     0001     0000
-SIMLOG:: Cycle          46 PC:     000e I:     e500 R: 1   2     0001 M: 0 0     0004     0004     0000
-SIMLOG:: Cycle          47 PC:     0010 I:     c202 R: 1   6     0004 M: 0 0     0004     0004     0000
-SIMLOG:: Cycle          48 PC:     0012 I:     de60 R: 1   6     0004 M: 0 0     0000     0001     0000
+SIMLOG:: Cycle          44 PC:     000a I:     b600 R: 1   0     0000 M: 0 0     0001     0000     0000
+SIMLOG:: Cycle          45 PC:     000c I:     1112 R: 1   2     0001 M: 0 0     0001     0000     0000
+SIMLOG:: Cycle          46 PC:     000e I:     e500 R: 1   2     0001 M: 0 0     0004     0000     0000
+SIMLOG:: Cycle          47 PC:     0010 I:     c202 R: 1   6     0004 M: 0 0     0004     0000     0000
+SIMLOG:: Cycle          48 PC:     0012 I:     de60 R: 1   6     0004 M: 0 0     0000     0000     0000
 SIMLOG:: Cycle          49 PC:     0012 I:     de60 R: 1   1     0000 M: 0 0     0010     0000     0000
-SIMLOG:: Cycle          50 PC:     0012 I:     de60 R: 1   5     0010 M: 0 0     0000     0001     0000
-SIMLOG:: Cycle          51 PC:     0016 I:     0462 R: 0   2     0000 M: 0 0     0001     0001     0000
-SIMLOG:: Cycle          52 PC:     0018 I:     f000 R: 0   2     0001 M: 0 0     0001     0001     0000
+SIMLOG:: Cycle          50 PC:     0012 I:     de60 R: 1   5     0010 M: 0 0     0000     0000     0000
+SIMLOG:: Cycle          51 PC:     0016 I:     0462 R: 0   2     0000 M: 0 0     0001     0000     0000
+SIMLOG:: Cycle          52 PC:     0018 I:     f000 R: 0   2     0001 M: 0 0     0001     0000     0000
 SIMLOG:: Cycle          53 PC:     0018 I:     f000 R: 0   2     0001 M: 0 0     0000     0000     0000
-SIMLOG:: Cycle          54 PC:     0018 I:     f000 R: 1   0     0000 M: 0 0     0005     0001     0000
+SIMLOG:: Cycle          54 PC:     0018 I:     f000 R: 1   0     0000 M: 0 0     0005     0000     0000
 SIMLOG:: Cycle          55 PC:     0018 I:     f000 R: 1   4     0005 M: 0 0     0000     0000     0000
 SIMLOG:: Cycle          56 PC:     0018 I:     f000 R: 0   0     0000 M: 0 0     0000     0000     0000
 SIMLOG:: Processor halted
@@ -57,11 +57,11 @@ SIMLOG:: sim_cycles          56
 
 SIMLOG:: inst_count          30
 
-SIMLOG:: dcachehit_count          53
+SIMLOG:: dcachehit_count           0
 
 SIMLOG:: icachehit_count          29
 
 SIMLOG:: dcachereq_count           0
 
-SIMLOG:: icachereq_count           0
+SIMLOG:: icachereq_count          29
 

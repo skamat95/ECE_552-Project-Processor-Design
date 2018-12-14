@@ -1,0 +1,1401 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/ModelSim Projects/ECE 552/Homework 8
+T_opt
+!s110 1544378940
+VnMB3^e19SRU9Qc5Rh]HJk0
+Z1 04 7 4 work cpu_ptb fast 0
+=1-a0d3c10fdba4-5c0d5a3a-1cb-28cc
+o-quiet -auto_acc_if_foreign -work work +acc
+n@_opt
+Z2 OE;O;10.3c;59
+R0
+T_opt1
+!s110 1544386067
+VjB9B6n9[9VNoRX`GjJ6c<0
+R1
+=1-a0d3c10fdba4-5c0d7612-293-281c
+o-quiet -auto_acc_if_foreign -work work
+n@_opt1
+R2
+vAdder_16bit
+Z3 !s110 1544378848
+!i10b 1
+!s100 l4^<3W@3YKnEn839T;oU<3
+I0>oaYZWakP`WgKj^?G]K[2
+Z4 V`JN@9S9cnhjKRR_L]QIcM3
+Z5 dI:/ECE552/PHASE 3
+Z6 w1544378615
+Z7 8I:/ECE552/PHASE 3/Adder.v
+Z8 FI:/ECE552/PHASE 3/Adder.v
+L0 1
+Z9 OE;L;10.3c;59
+r1
+!s85 0
+31
+Z10 !s108 1544378848.245000
+Z11 !s107 I:/ECE552/PHASE 3/Adder.v|
+Z12 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|I:/ECE552/PHASE 3/Adder.v|
+!i113 0
+Z13 o-work work -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+n@adder_16bit
+vadder_1bit
+R3
+!i10b 1
+!s100 Ff8DzNnTQflEh?8`BiSh61
+IHSB15[<K[@lR@60[>k;]90
+R4
+R5
+R6
+Z14 8I:/ECE552/PHASE 3/adder4bit+tb.v
+Z15 FI:/ECE552/PHASE 3/adder4bit+tb.v
+L0 1
+R9
+r1
+!s85 0
+31
+Z16 !s108 1544378848.619000
+Z17 !s107 I:/ECE552/PHASE 3/adder4bit+tb.v|
+Z18 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|I:/ECE552/PHASE 3/adder4bit+tb.v|
+!i113 0
+R13
+vadder_4bit
+R3
+!i10b 1
+!s100 EC2YDKK0CBRe0d9Uf4KFd3
+IV1YWFMlc=gmPC_TGM4=UQ3
+R4
+R5
+R6
+R7
+R8
+L0 35
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+vadder_4bit_josh
+R3
+!i10b 1
+!s100 M?zOLen`Som>n;Hl^A5ol3
+I?8HDoS`L3Adfmbfda=6>O1
+R4
+R5
+R6
+R14
+R15
+L0 14
+R9
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 0
+R13
+vadder_tb
+R3
+!i10b 1
+!s100 5aP:X1]<9EG[=Y1PhNM_43
+IPaL<N>GG@]LDVAJkCXKFL3
+R4
+R5
+R6
+R14
+R15
+L0 33
+R9
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 0
+R13
+vaddsub_4bit_ripple
+Z19 !s110 1544378843
+!i10b 1
+!s100 =8WC]`?`T:SHRHRf4`HQA2
+IVNGl<:F=l5Gfz2jV=]WlO1
+R4
+R5
+Z20 w1544378610
+Z21 8I:/ECE552/PHASE 3/PADDSB.v
+Z22 FI:/ECE552/PHASE 3/PADDSB.v
+L0 37
+R9
+r1
+!s85 0
+31
+Z23 !s108 1544378843.373000
+Z24 !s107 I:/ECE552/PHASE 3/PADDSB.v|
+Z25 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|I:/ECE552/PHASE 3/PADDSB.v|
+!i113 0
+R13
+vALU
+!s110 1544378849
+!i10b 1
+!s100 ^eoPF6BIW>LVcmkz?Th9W0
+ILb:fflQl4dW=GAJalKh_T1
+R4
+R5
+R6
+8I:/ECE552/PHASE 3/ALU.v
+FI:/ECE552/PHASE 3/ALU.v
+L0 3
+R9
+r1
+!s85 0
+31
+!s108 1544378849.241000
+!s107 I:/ECE552/PHASE 3/ALU.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|I:/ECE552/PHASE 3/ALU.v|
+!i113 0
+R13
+n@a@l@u
+vBitCell
+Z26 !s110 1544378845
+!i10b 1
+!s100 [KC]]GWBMRo[:E60ozYm81
+I=QFR>_cR7Lm2USF2fHLB41
+R4
+R5
+Z27 w1544378609
+Z28 8I:/ECE552/PHASE 3/regfile.v
+Z29 FI:/ECE552/PHASE 3/regfile.v
+L0 88
+R9
+r1
+!s85 0
+31
+Z30 !s108 1544378845.615000
+Z31 !s107 I:/ECE552/PHASE 3/regfile.v|
+Z32 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|I:/ECE552/PHASE 3/regfile.v|
+!i113 0
+R13
+n@bit@cell
+vBlock
+Z33 !s110 1544378839
+!i10b 1
+!s100 i3?oZNV^3:[=A<AQHNSZ>2
+IPS1lUlLG5`JWV72CN7FGc2
+R4
+R5
+Z34 w1544378614
+Z35 8I:/ECE552/PHASE 3/DataArray.v
+Z36 FI:/ECE552/PHASE 3/DataArray.v
+Z37 L0 13
+R9
+r1
+!s85 0
+31
+Z38 !s108 1544378839.760000
+Z39 !s107 I:/ECE552/PHASE 3/DataArray.v|
+Z40 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|I:/ECE552/PHASE 3/DataArray.v|
+!i113 0
+R13
+n@block
+vbranch_control
+!s110 1544378836
+!i10b 1
+!s100 fQXNiU>>bbl[^<O>^FiK50
+IOj?dYemkl4WDJZ2i4Q8gR1
+R4
+R5
+R6
+8I:/ECE552/PHASE 3/branch_control.v
+FI:/ECE552/PHASE 3/branch_control.v
+L0 1
+R9
+r1
+!s85 0
+31
+!s108 1544378836.134000
+!s107 I:/ECE552/PHASE 3/branch_control.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|I:/ECE552/PHASE 3/branch_control.v|
+!i113 0
+R13
+vcache_fill_FSM
+!s110 1544378837
+!i10b 1
+!s100 Mi9OeaL=P4NPemg24^7lB0
+IWIOfe?FD^;0UL[dVc5J2z3
+R4
+R5
+R6
+8I:/ECE552/PHASE 3/cache_miss_controller.v
+FI:/ECE552/PHASE 3/cache_miss_controller.v
+L0 1
+R9
+r1
+!s85 0
+31
+!s108 1544378837.610000
+!s107 I:/ECE552/PHASE 3/cache_miss_controller.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|I:/ECE552/PHASE 3/cache_miss_controller.v|
+!i113 0
+R13
+ncache_fill_@f@s@m
+vcla_16bit
+!s110 1544378838
+!i10b 1
+!s100 :C207]an^iP;P5ODX?dRL2
+I[HT5i9;[kojL_m<0lCFQf1
+R4
+R5
+R6
+8I:/ECE552/PHASE 3/cla_16bit.v
+FI:/ECE552/PHASE 3/cla_16bit.v
+L0 1
+R9
+r1
+!s85 0
+31
+!s108 1544378837.989000
+!s107 I:/ECE552/PHASE 3/cla_16bit.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|I:/ECE552/PHASE 3/cla_16bit.v|
+!i113 0
+R13
+vcpu
+!s110 1544336875
+!i10b 1
+!s100 F<UX>J1e1M`M[l@]5KD;D1
+IeG3LGKHkY0E>[I2lPL=Tn0
+Z41 VDg1SIo80bB@j0V0VzS_@n1
+Z42 dC:/Users/Rahul Singh/Downloads/ECE_552-Project-Processor-Design-Phase_2/PHASE 3
+w1543750973
+8C:/Users/Rahul Singh/Downloads/ECE_552-Project-Processor-Design-Phase_2/PHASE 3/cpu_one.v
+FC:/Users/Rahul Singh/Downloads/ECE_552-Project-Processor-Design-Phase_2/PHASE 3/cpu_one.v
+L0 1
+Z43 OP;L;10.4a;61
+r1
+!s85 0
+31
+!s108 1544336875.000000
+!s107 C:/Users/Rahul Singh/Downloads/ECE_552-Project-Processor-Design-Phase_2/PHASE 3/cpu_one.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Rahul Singh/Downloads/ECE_552-Project-Processor-Design-Phase_2/PHASE 3/cpu_one.v|
+!s101 -O0
+!i113 1
+Z44 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact -O0
+vcpu_ptb
+Z45 !s110 1544378844
+!i10b 1
+!s100 PQNWoNiHmdILa2[E@7?IG2
+IcIGWj@TCRKm3U_Y=[_hCS3
+R4
+R5
+R27
+8I:/ECE552/PHASE 3/project-phase3-testbench.v
+FI:/ECE552/PHASE 3/project-phase3-testbench.v
+L0 1
+R9
+r1
+!s85 0
+31
+!s108 1544378844.772000
+!s107 I:/ECE552/PHASE 3/project-phase3-testbench.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|I:/ECE552/PHASE 3/project-phase3-testbench.v|
+!i113 0
+R13
+vcpu_two
+!s110 1544382683
+!i10b 1
+!s100 k<6A@WL[z5P1<zUVY0XNN2
+IV1o6Xdjn3CAhYEMkBj>dk1
+R4
+R5
+w1544382679
+8I:/ECE552/PHASE 3/cpu_two.v
+FI:/ECE552/PHASE 3/cpu_two.v
+L0 1
+R9
+r1
+!s85 0
+31
+!s108 1544382683.057000
+!s107 I:/ECE552/PHASE 3/cpu_two.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|I:/ECE552/PHASE 3/cpu_two.v|
+!i113 0
+R13
+vData_cache
+R33
+!i10b 1
+!s100 2eNUKM0m;A<7VGPCl7XB?2
+Iz3c1HcAci;8:RbRdmUjTW1
+R4
+R5
+R34
+8I:/ECE552/PHASE 3/data_cache_temp.v
+FI:/ECE552/PHASE 3/data_cache_temp.v
+L0 45
+R9
+r1
+!s85 0
+31
+!s108 1544378839.072000
+!s107 I:/ECE552/PHASE 3/data_cache_temp.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|I:/ECE552/PHASE 3/data_cache_temp.v|
+!i113 0
+R13
+n@data_cache
+vdata_memory1c
+R33
+!i10b 1
+!s100 [L=iNHzYlmf_KGF[VVZQ40
+IXG17Ao0Fkd319:kFGh0dn1
+R4
+R5
+R34
+8I:/ECE552/PHASE 3/data_memory.v
+FI:/ECE552/PHASE 3/data_memory.v
+Z46 L0 31
+R9
+r1
+!s85 0
+31
+!s108 1544378839.388000
+!s107 I:/ECE552/PHASE 3/data_memory.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|I:/ECE552/PHASE 3/data_memory.v|
+!i113 0
+R13
+vDataArray
+R33
+!i10b 1
+!s100 [LoID2D_0[oG03>2?kX2F0
+I?A?fBCNbGC=?=COSn<Z1i3
+R4
+R5
+R34
+R35
+R36
+L0 6
+R9
+r1
+!s85 0
+31
+R38
+R39
+R40
+!i113 0
+R13
+n@data@array
+vDataArray_t
+Z47 !s110 1544152221
+!i10b 1
+!s100 mG4RC4QC1If9ZN1^km8jj0
+Ic>=hSKbB7k2Dk@K3<S0Lc3
+R41
+R42
+Z48 w1543715446
+Z49 8C:/Users/Rahul Singh/Downloads/ECE_552-Project-Processor-Design-Phase_2/PHASE 3/DataArray_t.v
+Z50 FC:/Users/Rahul Singh/Downloads/ECE_552-Project-Processor-Design-Phase_2/PHASE 3/DataArray_t.v
+L0 6
+R43
+r1
+!s85 0
+31
+Z51 !s108 1544152221.000000
+Z52 !s107 C:/Users/Rahul Singh/Downloads/ECE_552-Project-Processor-Design-Phase_2/PHASE 3/DataArray_t.v|
+Z53 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Rahul Singh/Downloads/ECE_552-Project-Processor-Design-Phase_2/PHASE 3/DataArray_t.v|
+!s101 -O0
+!i113 1
+R44
+n@data@array_t
+vDCell
+R33
+!i10b 1
+!s100 4G8P0C3lSdz:BCYSHYE<>3
+I9cUnmYJQ860AWfJY2A`>[3
+R4
+R5
+R34
+R35
+R36
+L0 26
+R9
+r1
+!s85 0
+31
+R38
+R39
+R40
+!i113 0
+R13
+n@d@cell
+vdff
+Z54 !s110 1544378840
+!i10b 1
+!s100 hnSNYQ@_M6T1KGh@C1^Bg1
+I1@>MFR9>:_TkEOCjE7GSR3
+R4
+R5
+R34
+8I:/ECE552/PHASE 3/D-Flip-Flop.v
+FI:/ECE552/PHASE 3/D-Flip-Flop.v
+L0 3
+R9
+r1
+!s85 0
+31
+!s108 1544378840.124000
+!s107 I:/ECE552/PHASE 3/D-Flip-Flop.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|I:/ECE552/PHASE 3/D-Flip-Flop.v|
+!i113 0
+R13
+vdflipflop_16bit
+R19
+!i10b 1
+!s100 Uc]57fk_fGFhSOdd8B4Dc0
+IN3z5RgHbYH7l3Y[XiCL0c2
+R4
+R5
+R20
+8I:/ECE552/PHASE 3/pc_register.v
+FI:/ECE552/PHASE 3/pc_register.v
+L0 1
+R9
+r1
+!s85 0
+31
+!s108 1544378843.711000
+!s107 I:/ECE552/PHASE 3/pc_register.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|I:/ECE552/PHASE 3/pc_register.v|
+!i113 0
+R13
+vdflipflop_3bit
+R45
+!i10b 1
+!s100 mMKP[TJ;^SkFFYXQ8UK@`3
+IFS3B;1_7ZYKIai=@_Q8;Y1
+R4
+R5
+R20
+Z55 8I:/ECE552/PHASE 3/pipelining.v
+Z56 FI:/ECE552/PHASE 3/pipelining.v
+Z57 L0 15
+R9
+r1
+!s85 0
+31
+Z58 !s108 1544378844.066000
+Z59 !s107 I:/ECE552/PHASE 3/pipelining.v|
+Z60 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|I:/ECE552/PHASE 3/pipelining.v|
+!i113 0
+R13
+vdflipflop_4bit
+R45
+!i10b 1
+!s100 nF9WYUm=7YBk]3:]0@iQW3
+I_>5?_DnjjzdzU00N>M59O3
+R4
+R5
+R20
+R55
+R56
+L0 1
+R9
+r1
+!s85 0
+31
+R58
+R59
+R60
+!i113 0
+R13
+vDWord
+R33
+!i10b 1
+!s100 K:PXN2JaoDl>Z^j3n^Tnn3
+IlKiQ67F`c[2]1m5Q]F3fo1
+R4
+R5
+R34
+R35
+R36
+Z61 L0 21
+R9
+r1
+!s85 0
+31
+R38
+R39
+R40
+!i113 0
+R13
+n@d@word
+vEX_MEM
+R45
+!i10b 1
+!s100 ?>mH99B9idn0JK8G;aW6c0
+IJlOfbQ85mBcD^DYZWGl_I2
+R4
+R5
+R20
+R55
+R56
+L0 103
+R9
+r1
+!s85 0
+31
+R58
+R59
+R60
+!i113 0
+R13
+n@e@x_@m@e@m
+vFlags
+R54
+!i10b 1
+!s100 [AWkSnNKj``Cc[LfE`F_;1
+IHo8[J:nDXkDZza_F_j?Ul3
+R4
+R5
+Z62 w1544378611
+8I:/ECE552/PHASE 3/Flags.v
+FI:/ECE552/PHASE 3/Flags.v
+L0 1
+R9
+r1
+!s85 0
+31
+!s108 1544378840.438000
+!s107 I:/ECE552/PHASE 3/Flags.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|I:/ECE552/PHASE 3/Flags.v|
+!i113 0
+R13
+n@flags
+vforwarding_unit
+R54
+!i10b 1
+!s100 ]F@f;Y?E2dX?=9oin?dbQ2
+InE0gWhIlT=YdJ6^15llmX3
+R4
+R5
+R62
+8I:/ECE552/PHASE 3/forwarding_unit.v
+FI:/ECE552/PHASE 3/forwarding_unit.v
+L0 1
+R9
+r1
+!s85 0
+31
+!s108 1544378840.753000
+!s107 I:/ECE552/PHASE 3/forwarding_unit.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|I:/ECE552/PHASE 3/forwarding_unit.v|
+!i113 0
+R13
+vfull_rippleadder_1bit
+R19
+!i10b 1
+!s100 _6KRWc[62E3Y0lf9LU<l@1
+IFARGU0ES8g3eAeX6FEQW32
+R4
+R5
+R20
+R21
+R22
+L0 25
+R9
+r1
+!s85 0
+31
+R23
+R24
+R25
+!i113 0
+R13
+vgen_prop
+R3
+!i10b 1
+!s100 Az@Tncm[JCNGh^bT2e^9`3
+I5Q<H]>oIZaVn1<dh6S74o3
+R4
+R5
+R6
+R7
+R8
+L0 71
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+vHDU
+Z63 !s110 1544378841
+!i10b 1
+!s100 zFYT;<<IY7;lB3OAoAYC50
+I>XjfNfOc:hR^FHKC`49203
+R4
+R5
+R62
+8I:/ECE552/PHASE 3/HDU.v
+FI:/ECE552/PHASE 3/HDU.v
+L0 3
+R9
+r1
+!s85 0
+31
+!s108 1544378841.164000
+!s107 I:/ECE552/PHASE 3/HDU.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|I:/ECE552/PHASE 3/HDU.v|
+!i113 0
+R13
+n@h@d@u
+vID_EX
+R45
+!i10b 1
+!s100 SLANGCln9NKcCh2kF?RjP3
+IJ6JA?moOX4G;mHoZ1SS@f0
+R4
+R5
+R20
+R55
+R56
+L0 56
+R9
+r1
+!s85 0
+31
+R58
+R59
+R60
+!i113 0
+R13
+n@i@d_@e@x
+vIF_ID
+R45
+!i10b 1
+!s100 _T79UXHPNk8DBC^hUBPYH1
+Iz`f=9eF7`AYK[=bWb^8Ij2
+R4
+R5
+R20
+R55
+R56
+L0 28
+R9
+r1
+!s85 0
+31
+R58
+R59
+R60
+!i113 0
+R13
+n@i@f_@i@d
+vinst_cache
+R47
+!i10b 1
+!s100 =klBkMi7TWl?CAL;j5KCA1
+I?39`Mh1m;?MRLPIQX_QR[2
+R41
+R42
+w1543789775
+8C:/Users/Rahul Singh/Downloads/ECE_552-Project-Processor-Design-Phase_2/PHASE 3/inst_cache.v
+FC:/Users/Rahul Singh/Downloads/ECE_552-Project-Processor-Design-Phase_2/PHASE 3/inst_cache.v
+L0 3
+R43
+r1
+!s85 0
+31
+R51
+!s107 C:/Users/Rahul Singh/Downloads/ECE_552-Project-Processor-Design-Phase_2/PHASE 3/inst_cache.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Rahul Singh/Downloads/ECE_552-Project-Processor-Design-Phase_2/PHASE 3/inst_cache.v|
+!s101 -O0
+!i113 1
+R44
+vMBlock
+R63
+!i10b 1
+!s100 T@ge:9Gkh^G@_AZI=T9hd2
+I;cV9BlPePMn=N6^:Di5^I0
+R4
+R5
+R62
+Z64 8I:/ECE552/PHASE 3/MetaData.v
+Z65 FI:/ECE552/PHASE 3/MetaData.v
+R37
+R9
+r1
+!s85 0
+31
+Z66 !s108 1544378841.810000
+Z67 !s107 I:/ECE552/PHASE 3/MetaData.v|
+Z68 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|I:/ECE552/PHASE 3/MetaData.v|
+!i113 0
+R13
+n@m@block
+vMBlock_Data
+R47
+!i10b 1
+!s100 5n9:Q1I0F2iXMn^?]T1=Y3
+I;:N9S27DhVnI73ck]nlED3
+R41
+R42
+Z69 w1543991752
+Z70 8C:/Users/Rahul Singh/Downloads/ECE_552-Project-Processor-Design-Phase_2/PHASE 3/MetaData_Data.v
+Z71 FC:/Users/Rahul Singh/Downloads/ECE_552-Project-Processor-Design-Phase_2/PHASE 3/MetaData_Data.v
+L0 11
+R43
+r1
+!s85 0
+31
+R51
+Z72 !s107 C:/Users/Rahul Singh/Downloads/ECE_552-Project-Processor-Design-Phase_2/PHASE 3/MetaData_Data.v|
+Z73 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Rahul Singh/Downloads/ECE_552-Project-Processor-Design-Phase_2/PHASE 3/MetaData_Data.v|
+!s101 -O0
+!i113 1
+R44
+n@m@block_@data
+vMCell
+R63
+!i10b 1
+!s100 ?SKo7RVWLO<zO^L;QdOTF1
+ITn1_]T6nWFzA;RNNAmL<k1
+R4
+R5
+R62
+R64
+R65
+L0 18
+R9
+r1
+!s85 0
+31
+R66
+R67
+R68
+!i113 0
+R13
+n@m@cell
+vMCell_Data
+!s110 1543961398
+!i10b 1
+!s100 95QIThS0QT8hZV_U1MNjf3
+IRCH=h]>AXEYY7noGnSEK;2
+R41
+R42
+w1543796300
+R70
+R71
+R57
+R43
+r1
+!s85 0
+31
+!s108 1543961398.000000
+R72
+R73
+!s101 -O0
+!i113 1
+R44
+n@m@cell_@data
+vMCell_lru
+Z74 !s110 1544152222
+!i10b 1
+!s100 fA]Y7OH]@LlnNfZ`Z0E[73
+I9J`j8USSD=1L5@c;g=_^e2
+R41
+R42
+Z75 w1543719170
+Z76 8C:/Users/Rahul Singh/Downloads/ECE_552-Project-Processor-Design-Phase_2/PHASE 3/MetaDataArray_t.v
+Z77 FC:/Users/Rahul Singh/Downloads/ECE_552-Project-Processor-Design-Phase_2/PHASE 3/MetaDataArray_t.v
+L0 27
+R43
+r1
+!s85 0
+31
+Z78 !s108 1544152222.000000
+Z79 !s107 C:/Users/Rahul Singh/Downloads/ECE_552-Project-Processor-Design-Phase_2/PHASE 3/MetaDataArray_t.v|
+Z80 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Rahul Singh/Downloads/ECE_552-Project-Processor-Design-Phase_2/PHASE 3/MetaDataArray_t.v|
+!s101 -O0
+!i113 1
+R44
+n@m@cell_lru
+vMCell_t
+R47
+!i10b 1
+!s100 UQQkRS50Q;L7W_S>zCH8c0
+I;IB2zzRC=A[42G6[VE;:M2
+R41
+R42
+R69
+R70
+R71
+L0 22
+R43
+r1
+!s85 0
+31
+R51
+R72
+R73
+!s101 -O0
+!i113 1
+R44
+n@m@cell_t
+vMDA_DA_Cache
+!s110 1544380703
+!i10b 1
+!s100 aR:RLiShJD:I6BA>VFikc2
+IWPa<e>@QcWoh3]>K4HJQH3
+R4
+R5
+w1544380674
+8I:/ECE552/PHASE 3/Cache_MDA_DA.v
+FI:/ECE552/PHASE 3/Cache_MDA_DA.v
+L0 4
+R9
+r1
+!s85 0
+31
+!s108 1544380703.325000
+!s107 I:/ECE552/PHASE 3/Cache_MDA_DA.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|I:/ECE552/PHASE 3/Cache_MDA_DA.v|
+!i113 0
+R13
+n@m@d@a_@d@a_@cache
+vMEM_WB
+R45
+!i10b 1
+!s100 @oe2[oc?9j;7Zh]]XYfkC0
+IK8Em:=19@TK[W[D3>@E362
+R4
+R5
+R20
+R55
+R56
+L0 142
+R9
+r1
+!s85 0
+31
+R58
+R59
+R60
+!i113 0
+R13
+n@m@e@m_@w@b
+vmemory1c
+R63
+!i10b 1
+!s100 >i2TRZ]SF8REP;>47oj4`3
+I5Y50C::E?d44ce><^NL<10
+R4
+R5
+R62
+8I:/ECE552/PHASE 3/memory.v
+FI:/ECE552/PHASE 3/memory.v
+R46
+R9
+r1
+!s85 0
+31
+!s108 1544378841.489000
+!s107 I:/ECE552/PHASE 3/memory.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|I:/ECE552/PHASE 3/memory.v|
+!i113 0
+R13
+vmemory4c
+!s110 1544378842
+!i10b 1
+!s100 SKdME=;QB`NS1cEkFBKI?3
+IQE>AkPh=dN@_@WL8aj=7S2
+R4
+R5
+R62
+8I:/ECE552/PHASE 3/multicycle_memory.v
+FI:/ECE552/PHASE 3/multicycle_memory.v
+L0 24
+R9
+r1
+!s85 0
+31
+!s108 1544378842.164000
+!s107 I:/ECE552/PHASE 3/multicycle_memory.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|I:/ECE552/PHASE 3/multicycle_memory.v|
+!i113 0
+R13
+vMetaDataArray
+R63
+!i10b 1
+!s100 dV0D`fT3<O=@c^`28iO=K0
+IVK`YHTm@=NY44]7dgZXS40
+R4
+R5
+R62
+R64
+R65
+L0 8
+R9
+r1
+!s85 0
+31
+R66
+R67
+R68
+!i113 0
+R13
+n@meta@data@array
+vMetaDataArray_Data
+R47
+!i10b 1
+!s100 ^6Io<Pa1j8Na6o=c=D`nS1
+I91LYFFi`9XPb<GGg=AJhb3
+R41
+R42
+R69
+R70
+R71
+L0 6
+R43
+r1
+!s85 0
+31
+R51
+R72
+R73
+!s101 -O0
+!i113 1
+R44
+n@meta@data@array_@data
+vMetaDataArray_t
+R74
+!i10b 1
+!s100 fBDYo_ggE?o8@8POJhSCn3
+I_iDcAM[4TXRDl;HAfB6YS0
+R41
+R42
+R75
+R76
+R77
+L0 6
+R43
+r1
+!s85 0
+31
+R78
+R79
+R80
+!s101 -O0
+!i113 1
+R44
+n@meta@data@array_t
+vMSet
+R74
+!i10b 1
+!s100 :SUd^PW7M@<aDDWN>PWX40
+IPZV4VzzdTPh5114f`iRb@3
+R41
+R42
+R75
+R76
+R77
+L0 10
+R43
+r1
+!s85 0
+31
+R78
+R79
+R80
+!s101 -O0
+!i113 1
+R44
+n@m@set
+vPADDSB
+R19
+!i10b 1
+!s100 4fzZM_;OLQnWgKYKAIQAL3
+Ig_MzVTcGFQB@lV;AP`OW^1
+R4
+R5
+R20
+R21
+R22
+L0 2
+R9
+r1
+!s85 0
+31
+R23
+R24
+R25
+!i113 0
+R13
+n@p@a@d@d@s@b
+vReadDecoder_4_16
+R26
+!i10b 1
+!s100 n=ZkOcXje_bzzd9QKL>j93
+IQMO_FcdoPJFJU957HH6^_1
+R4
+R5
+R27
+R28
+R29
+L0 43
+R9
+r1
+!s85 0
+31
+R30
+R31
+R32
+!i113 0
+R13
+n@read@decoder_4_16
+vRED
+R26
+!i10b 1
+!s100 ?TV_c^^Noimg@<OIg<lBM1
+IUHOnMV[kd:aa2@L;V;3>83
+R4
+R5
+R27
+8I:/ECE552/PHASE 3/RED.v
+FI:/ECE552/PHASE 3/RED.v
+L0 1
+R9
+r1
+!s85 0
+31
+!s108 1544378845.233000
+!s107 I:/ECE552/PHASE 3/RED.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|I:/ECE552/PHASE 3/RED.v|
+!i113 0
+R13
+n@r@e@d
+vRegister
+R26
+!i10b 1
+!s100 DH9BE]^RP7K9=MA?Q6=]X1
+IQM8<hCfO7I1A`S^lVG7][0
+R4
+R5
+R27
+R28
+R29
+L0 106
+R9
+r1
+!s85 0
+31
+R30
+R31
+R32
+!i113 0
+R13
+n@register
+vRegisterFile
+R26
+!i10b 1
+!s100 N7^`><IY4XMcF``14Wl:O3
+IEkTGBE_JB=BAdg7<8>`P>2
+R4
+R5
+R27
+R28
+R29
+L0 2
+R9
+r1
+!s85 0
+31
+R30
+R31
+R32
+!i113 0
+R13
+n@register@file
+vSet
+R47
+!i10b 1
+!s100 Tfoo_S5hSkCLTXU_X[i[d0
+I:;?o1;7li]1>NK0LbCa`i1
+R41
+R42
+R48
+R49
+R50
+L0 12
+R43
+r1
+!s85 0
+31
+R51
+R52
+R53
+!s101 -O0
+!i113 1
+R44
+n@set
+vShifter_128bit
+!s110 1544152218
+!i10b 1
+!s100 ikNIOceoDVz?_X0G?KKPl2
+I8BPOm47]zYjGTI5f7Kbm=0
+R41
+R42
+w1543969976
+8C:/Users/Rahul Singh/Downloads/ECE_552-Project-Processor-Design-Phase_2/PHASE 3/one_hot.v
+FC:/Users/Rahul Singh/Downloads/ECE_552-Project-Processor-Design-Phase_2/PHASE 3/one_hot.v
+R61
+R43
+r1
+!s85 0
+31
+!s108 1544152218.000000
+!s107 C:/Users/Rahul Singh/Downloads/ECE_552-Project-Processor-Design-Phase_2/PHASE 3/one_hot.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Rahul Singh/Downloads/ECE_552-Project-Processor-Design-Phase_2/PHASE 3/one_hot.v|
+!s101 -O0
+!i113 1
+R44
+n@shifter_128bit
+vShifter_16bit
+Z81 !s110 1544378846
+!i10b 1
+!s100 SlgXeGNckk2CEn<UOjao[1
+IGPKXfc:dQM`hDOB[K^OKe0
+R4
+R5
+R27
+Z82 8I:/ECE552/PHASE 3/Shifter_16bit.v
+Z83 FI:/ECE552/PHASE 3/Shifter_16bit.v
+L0 1
+R9
+r1
+!s85 0
+31
+Z84 !s108 1544378846.000000
+Z85 !s107 I:/ECE552/PHASE 3/Shifter_16bit.v|
+Z86 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|I:/ECE552/PHASE 3/Shifter_16bit.v|
+!i113 0
+R13
+n@shifter_16bit
+vShifter_1_bit_3_1
+R81
+!i10b 1
+!s100 WiBMW2jbH45VE1HAK0?Ez0
+IHmM_R60`6M[G>azCGdP6c2
+R4
+R5
+R27
+R82
+R83
+L0 107
+R9
+r1
+!s85 0
+31
+R84
+R85
+R86
+!i113 0
+R13
+n@shifter_1_bit_3_1
+vShifter_2_bit_3_1
+R81
+!i10b 1
+!s100 8`DLc2hz<CIQoFJZV443`3
+Ia^DaQiDODlHZZF[m@69JL2
+R4
+R5
+R27
+R82
+R83
+L0 78
+R9
+r1
+!s85 0
+31
+R84
+R85
+R86
+!i113 0
+R13
+n@shifter_2_bit_3_1
+vShifter_4_bit_3_1
+R81
+!i10b 1
+!s100 Y<0IlJnF<0^1eK`a=g40c0
+I0N:M`lc;f_e^YMgi62hX?2
+R4
+R5
+R27
+R82
+R83
+L0 50
+R9
+r1
+!s85 0
+31
+R84
+R85
+R86
+!i113 0
+R13
+n@shifter_4_bit_3_1
+vShifter_64bit
+R19
+!i10b 1
+!s100 4Y_iYNg@SKnhMkTH>71z81
+IZ5Pl@NKaWj7j;[lkMHL5R1
+R4
+R5
+R20
+8I:/ECE552/PHASE 3/one_hot.v
+FI:/ECE552/PHASE 3/one_hot.v
+L0 4
+R9
+r1
+!s85 0
+31
+!s108 1544378843.025000
+!s107 I:/ECE552/PHASE 3/one_hot.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|I:/ECE552/PHASE 3/one_hot.v|
+!i113 0
+R13
+n@shifter_64bit
+vShifter_8_bit_3_1
+R81
+!i10b 1
+!s100 9:G>0gJ2ZAAB9SbB;oD4V1
+I0O;l;KCehA_ZV=eVo4AfY3
+R4
+R5
+R27
+R82
+R83
+R61
+R9
+r1
+!s85 0
+31
+R84
+R85
+R86
+!i113 0
+R13
+n@shifter_8_bit_3_1
+vt_addsub_4bit
+R81
+!i10b 1
+!s100 Td3gWj<RU62XSF?cj7kY92
+IP4nWha:SSgac0obUCV_U61
+R4
+R5
+Z87 w1544378608
+8I:/ECE552/PHASE 3/t_cla_16bit.v
+FI:/ECE552/PHASE 3/t_cla_16bit.v
+L0 2
+R9
+r1
+!s85 0
+31
+!s108 1544378846.373000
+!s107 I:/ECE552/PHASE 3/t_cla_16bit.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|I:/ECE552/PHASE 3/t_cla_16bit.v|
+!i113 0
+R13
+vt_Shifter
+R81
+!i10b 1
+!s100 ^Qb>l8O4HDUE^YdzV`C190
+I46bGeTX0_E54N8c=oG:Af0
+R4
+R5
+R87
+8I:/ECE552/PHASE 3/t_Shifter.v
+FI:/ECE552/PHASE 3/t_Shifter.v
+L0 1
+R9
+r1
+!s85 0
+31
+!s108 1544378846.744000
+!s107 I:/ECE552/PHASE 3/t_Shifter.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|I:/ECE552/PHASE 3/t_Shifter.v|
+!i113 0
+R13
+nt_@shifter
+vword_decoder
+Z88 !s110 1544378847
+!i10b 1
+!s100 Cl4N8=g0TJ<?g65nnSl1h1
+I4b3m_KMDJ;`jlchS2iUIQ3
+R4
+R5
+w1544378607
+8I:/ECE552/PHASE 3/word_decoder.v
+FI:/ECE552/PHASE 3/word_decoder.v
+L0 1
+R9
+r1
+!s85 0
+31
+!s108 1544378847.106000
+!s107 I:/ECE552/PHASE 3/word_decoder.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|I:/ECE552/PHASE 3/word_decoder.v|
+!i113 0
+R13
+vWriteDecoder_4_16
+R26
+!i10b 1
+!s100 :DO2QhNa_1lM^GnP696b<3
+Io`jl7zQRWPOk1;VF72VJX0
+R4
+R5
+R27
+R28
+R29
+L0 65
+R9
+r1
+!s85 0
+31
+R30
+R31
+R32
+!i113 0
+R13
+n@write@decoder_4_16
+vxor_16bit
+R88
+!i10b 1
+!s100 3aea4;Kiic@AMc9oZ]7hD1
+II6=0hSM6aiKd<L<k8N=Lb1
+R4
+R5
+w1544378596
+8I:/ECE552/PHASE 3/XOR.v
+FI:/ECE552/PHASE 3/XOR.v
+L0 1
+R9
+r1
+!s85 0
+31
+!s108 1544378847.437000
+!s107 I:/ECE552/PHASE 3/XOR.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|I:/ECE552/PHASE 3/XOR.v|
+!i113 0
+R13
